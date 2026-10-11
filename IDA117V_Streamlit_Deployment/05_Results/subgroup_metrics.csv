@@ -1,0 +1,15 @@
+grouping,group,n,higher_need_support,accuracy,macro_f1,higher_need_recall,warning
+province,EC,6,6,0.8333333333333334,0.45454545454545453,0.8333333333333334,Small subgroup: descriptive only
+province,FS,5,3,0.4,0.4,0.3333333333333333,Small subgroup: descriptive only
+province,GT,3,0,1.0,0.5,,Small subgroup: descriptive only
+province,KZN,9,9,1.0,0.5,1.0,Small subgroup: descriptive only
+province,LP,3,3,1.0,0.5,1.0,Small subgroup: descriptive only
+province,MP,5,3,1.0,1.0,1.0,Small subgroup: descriptive only
+province,NC,4,3,0.75,0.42857142857142855,1.0,Small subgroup: descriptive only
+province,NW,5,3,0.6,0.5833333333333333,0.6666666666666666,Small subgroup: descriptive only
+province,WC,3,0,1.0,0.5,,Small subgroup: descriptive only
+category,A,2,1,0.5,0.3333333333333333,0.0,Small subgroup: descriptive only
+category,B1,2,1,1.0,1.0,1.0,Small subgroup: descriptive only
+category,B2,6,4,0.6666666666666666,0.625,0.75,Small subgroup: descriptive only
+category,B3,23,14,0.8260869565217391,0.8174603174603174,0.8571428571428571,Small subgroup: descriptive only
+category,B4,10,10,1.0,0.5,1.0,Small subgroup: descriptive only

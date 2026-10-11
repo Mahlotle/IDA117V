@@ -1,0 +1,31 @@
+column,definition,source,unit,role,dtype
+code,"Municipality identifier, never a model feature",Addendum/5 E,text,context / audit only,object
+municipality,"Municipality name, never a model feature",Addendum/5 F,text,context / audit only,object
+province,Province code,Map/5.2 and Addendum/5,"WC, EC, NC, FS, KZN, NW, GT, MP, LP",predictor,object
+category,Municipal subcategory,Addendum/5,"A, B1, B2, B3, B4",predictor,object
+water_2011,"Households with improved water, 2011",Addendum/5 G,percent,predictor,float64
+water_2022,"Improved-water household access, used only to define/audit target",Addendum/5 H,percent,context / audit only,float64
+sanitation_2011,"Households with improved sanitation, 2011",Addendum/5 K,percent,predictor,float64
+sanitation_2022,"Improved-sanitation household access, used only to define/audit target",Addendum/5 L,percent,context / audit only,float64
+refuse_2011,"Households with kerbside refuse removal, 2011",Addendum/5 M,percent,predictor,float64
+refuse_2022,"2022 service access, context only",Addendum/5,percent,context / audit only,float64
+electricity_2011,"Households using electricity for lighting, 2011",Addendum/5 O,percent,predictor,float64
+electricity_2022,"2022 service access, context only",Addendum/5,percent,context / audit only,float64
+population_2011,population 2011,Addendum/1,count,context / audit only,float64
+households_2011,households 2011,Addendum/1,count,context / audit only,float64
+household_size_2011,household size 2011,Addendum/1,persons per household,context / audit only,float64
+population_2022,population 2022,Addendum/1,count,context / audit only,float64
+households_2022,households 2022,Addendum/1,count,context / audit only,float64
+household_size_2022,Population / households in 2022,Addendum/1 K,persons per household,predictor,float64
+formal_share_2022,Formal dwellings / sum of 2022 dwelling categories × 100,Addendum/2 J:M,percent,predictor,float64
+traditional_share_2022,Traditional dwellings / sum of 2022 dwelling categories × 100,Addendum/2 J:M,percent,predictor,float64
+informal_share_2022,Informal dwellings / sum of 2022 dwelling categories × 100,Addendum/2 J:M,percent,predictor,float64
+other_share_2022,Other dwelling share,Addendum/2 M divided by J:M total,percent,context / audit only,float64
+urban_share_2022,Households in urban geography in 2022,Map/5.2 Q,percent,predictor,float64
+rdp_share_2022,RDP/state-subsidised dwellings among eligible denominator,Addendum/3 H,percent,predictor,float64
+rdp_eligible_denominator_2022,Eligible dwelling count for the RDP percentage,Addendum/3 F,count,context / audit only,float64
+log_households_2022,"Natural logarithm of 1 plus household count, 2022",Derived from Addendum/1 J,log count,predictor,float64
+household_growth_pct,100 × (households 2022 / households 2011 - 1),"Derived from Addendum/1 G,J",percent change,predictor,float64
+water_backlog_pct_2022,100 minus corresponding 2022 access percentage,Derived from Addendum/5,percent,context / audit only,float64
+sanitation_backlog_pct_2022,100 minus corresponding 2022 access percentage,Derived from Addendum/5,percent,context / audit only,float64
+higher_need,"1 if water_2022 < 90 or sanitation_2022 < 90, otherwise 0",Project operational rule,binary 0/1,target,int64

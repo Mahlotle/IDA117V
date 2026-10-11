@@ -1,0 +1,6 @@
+{
+  "status": 200,
+  "body": "ok",
+  "command": "python -m streamlit run 03_Code/app.py",
+  "test_port": 8502
+}

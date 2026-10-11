@@ -1,0 +1,20 @@
+[
+  {
+    "example": "Example 1",
+    "class": "Lower access need",
+    "probability": "3.5%"
+  },
+  {
+    "example": "Example 2",
+    "class": "Higher access need",
+    "probability": "96.6%"
+  },
+  {
+    "example": "Example 3",
+    "class": "Higher access need",
+    "probability": "95.4%"
+  },
+  {
+    "invalid_case": "water_2011: percentages must be between 0 and 100."
+  }
+]

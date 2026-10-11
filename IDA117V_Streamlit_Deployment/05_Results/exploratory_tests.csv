@@ -1,0 +1,3 @@
+feature,U,p_value,interpretation
+sanitation_2011,5737.0,4.003421947348316e-20,"Exploratory association, no causal claim; municipal independence assumption may fail."
+urban_share_2022,5420.0,5.058725203031645e-16,"Exploratory association, no causal claim; municipal independence assumption may fail."

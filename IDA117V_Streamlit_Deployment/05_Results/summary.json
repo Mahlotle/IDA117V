@@ -1,0 +1,122 @@
+{
+  "seed": 42,
+  "train_n": 127,
+  "validation_n": 43,
+  "test_n": 43,
+  "champion": "Residual network",
+  "comparator": "MLP",
+  "search_space": {
+    "width": [
+      8,
+      16
+    ],
+    "lr": [
+      0.001,
+      0.003
+    ],
+    "l2": [
+      0.01,
+      0.1
+    ],
+    "dropout": [
+      0.1,
+      0.25
+    ]
+  },
+  "best_cv_configuration": {
+    "parameters": {
+      "dropout": 0.1,
+      "l2": 0.01,
+      "lr": 0.001,
+      "width": 16
+    },
+    "cv_mean": 0.8780685329643722,
+    "cv_sd": 0.08204079770931463,
+    "fold_scores": [
+      0.9625730994152046,
+      0.8303287380699894,
+      0.9307359307359306,
+      0.7886363636363636
+    ]
+  },
+  "optimisation_accepted": true,
+  "final_parameters": {
+    "dropout": 0.1,
+    "l2": 0.01,
+    "lr": 0.001,
+    "width": 16
+  },
+  "pre_optimisation_validation": {
+    "accuracy": 0.8837209302325582,
+    "macro_f1": 0.8650345260514751,
+    "precision": 0.9310344827586207,
+    "recall": 0.9,
+    "weighted_f1": 0.8848888304938759,
+    "roc_auc": 0.9692307692307693,
+    "pr_auc": 0.9871582400077024
+  },
+  "searched_validation": {
+    "accuracy": 0.9069767441860465,
+    "macro_f1": 0.8940886699507389,
+    "precision": 0.9642857142857143,
+    "recall": 0.9,
+    "weighted_f1": 0.9086951540840874,
+    "roc_auc": 0.9846153846153846,
+    "pr_auc": 0.9935186843807533
+  },
+  "final_validation": {
+    "accuracy": 0.9069767441860465,
+    "macro_f1": 0.8940886699507389,
+    "precision": 0.9642857142857143,
+    "recall": 0.9,
+    "weighted_f1": 0.9086951540840874,
+    "roc_auc": 0.9846153846153846,
+    "pr_auc": 0.9935186843807533
+  },
+  "final_test": {
+    "model": "Final champion",
+    "accuracy": 0.8372093023255814,
+    "macro_f1": 0.8110483364720653,
+    "precision": 0.896551724137931,
+    "recall": 0.8666666666666667,
+    "weighted_f1": 0.838844362691426,
+    "roc_auc": 0.9282051282051282,
+    "pr_auc": 0.970381820547631
+  },
+  "mcnemar": {
+    "both_correct": 33,
+    "champion_only_correct": 3,
+    "comparator_only_correct": 0,
+    "both_wrong": 7,
+    "discordant": 3,
+    "exact_p": 0.25,
+    "alpha": 0.05,
+    "comparator": "MLP",
+    "statistic_continuity_corrected": 1.3333333333333333,
+    "independence_caveat": "Municipal spatial dependence may violate independent-pair assumptions; inference is exploratory."
+  },
+  "runtime_seconds": 41.14864182472229,
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit_learn": "1.8.0"
+  },
+  "feature_columns": [
+    "province",
+    "category",
+    "water_2011",
+    "sanitation_2011",
+    "refuse_2011",
+    "electricity_2011",
+    "log_households_2022",
+    "household_growth_pct",
+    "household_size_2022",
+    "formal_share_2022",
+    "traditional_share_2022",
+    "informal_share_2022",
+    "urban_share_2022",
+    "rdp_share_2022"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "valid_cases": [
+    {
+      "predicted_class": "Lower access need",
+      "higher_need_probability": 0.03488012447639821,
+      "explanation": "Estimated 2022 category: access at least 90% for both services."
+    },
+    {
+      "predicted_class": "Higher access need",
+      "higher_need_probability": 0.9656663486540628,
+      "explanation": "Estimated 2022 category: access below 90% for water or sanitation."
+    },
+    {
+      "predicted_class": "Higher access need",
+      "higher_need_probability": 0.9540943151627878,
+      "explanation": "Estimated 2022 category: access below 90% for water or sanitation."
+    }
+  ],
+  "invalid_case_error": "water_2011: percentages must be between 0 and 100."
+}

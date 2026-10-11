@@ -1,0 +1,12 @@
+{
+  "both_correct": 33,
+  "champion_only_correct": 3,
+  "comparator_only_correct": 0,
+  "both_wrong": 7,
+  "discordant": 3,
+  "exact_p": 0.25,
+  "alpha": 0.05,
+  "comparator": "MLP",
+  "statistic_continuity_corrected": 1.3333333333333333,
+  "independence_caveat": "Municipal spatial dependence may violate independent-pair assumptions; inference is exploratory."
+}

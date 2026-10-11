@@ -1,0 +1,4 @@
+experiment,validation_macro_f1,delta,removed_features
+Remove historical service indicators,0.7133333333333334,-0.1807553366174055,"water_2011, sanitation_2011, refuse_2011, electricity_2011"
+Remove geography,0.8009259259259259,-0.09316274402481295,"province, category"
+Remove housing and urban context,0.8054298642533937,-0.08865880569734519,"formal_share_2022, traditional_share_2022, informal_share_2022, urban_share_2022, rdp_share_2022"

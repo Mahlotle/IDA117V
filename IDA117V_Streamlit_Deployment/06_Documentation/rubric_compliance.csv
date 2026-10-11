@@ -1,0 +1,9 @@
+criterion,maximum_marks,requirement,evidence,outstanding
+1,10,"Problem, stakeholder, data, ethics",Report pp. 1-2; concept_note.md; dataset_card.md,Completed evidence; no mark guarantee
+2,18,"Audit, five EDA plots, split, pipeline",Report pp. 3-7; data_audit.json; prepare_data.py; run_analysis.py,Completed evidence; no mark guarantee
+3,22,Dummy + two traditional + MLP + second neural,Report pp. 8-9; neural.py; validation_comparison.csv,Completed evidence; no mark guarantee
+4,16,"Metrics, reports, matrices, ROC, learning curves",Report pp. 10-12; 04_Figures; classification_report JSONs,Completed evidence; no mark guarantee
+5,10,Champion-only search and locked test evaluation,Report p. 13; optimisation_search.json; summary.json,Completed evidence; no mark guarantee
+6,10,Three ablations and paired McNemar,Report pp. 14-15; ablations.csv; paired_test_predictions.csv; mcnemar.json,Completed evidence; no mark guarantee
+7,7,"Saved pipeline UI, validation, demos, launch",Report p. 16; app.py; predict.py; interface_demo.json; README.md,Completed evidence; no mark guarantee
+8,7,"Conclusions, reproducibility, presentation, contributions",Report pp. 17-18; presentation; README.md; contribution_statement.pdf,"Group must add names, sign actual contributions, review AI policy and perform live/recorded demo."
