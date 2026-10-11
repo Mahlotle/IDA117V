@@ -1,1 +1,1 @@
--r 03_Code/requirements.txt
+-r IDA117V_Streamlit_Deployment/03_Code/requirements.txt
